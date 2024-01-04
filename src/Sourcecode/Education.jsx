@@ -13,13 +13,13 @@ const Education = () => {
             <div className='w-full h-10 bg-gradient-to-r from-blue-600  to-sky-300 text-white flex  items-center justify-center'>
               <h2>DIPLOMA</h2>
             </div>
-              <button className='w-10 h-10 pr-4 mr-4 bg-sky-300 hover:text-white text-2xl font-bold' onClick={() =>{
+              <button className='w-10 h-10 pr-4 mr-4 sm:mr-2 bg-sky-300 hover:text-white text-2xl font-bold' onClick={() =>{
                 setToggled(!toggled)
               }}>{toggled ? <h1>-</h1> : <h1>+</h1>}</button>
           </div>
           {toggled ? (
-            <div className='ml-5 mr-4 bg-gradient-to-r from-blue-300  to-sky-100 '>
-              <div className='flex flex-row items-center  h-10 border-4 border-sky-200 space-x-3 sm:h-14 '>
+            <div className='ml-5 mr-4 sm:mr-2 bg-gradient-to-r from-blue-300  to-sky-100 '>
+              <div className='flex flex-row items-center  h-10 border-4 border-sky-200 space-x-3 sm:h-18 '>
                 <h3 className='font-medium ml-4'>Institute/University Name  </h3>
                 <h3>:</h3>
                 <h3>Sree Dttha Institute of Engineering and Science</h3>
@@ -50,13 +50,13 @@ const Education = () => {
               <div className='w-full h-10 bg-gradient-to-r from-blue-600  to-sky-300 text-white flex  items-center justify-center'>
                 <h2>Bachler's of Engineering</h2>
             </div>
-            <button className='w-10 h-10 pr-4 mr-4 bg-sky-300 hover:text-white text-2xl font-bold' onClick={() =>{
+            <button className='w-10 h-10 pr-4 mr-4 sm:mr-2 bg-sky-300 hover:text-white text-2xl font-bold' onClick={() =>{
                 setTogglee(!togglee)
               }}>{togglee ? <h1>-</h1> : <h1>+</h1>}</button>
           </div>
           { togglee ? (
-            <div className='ml-5 mr-4 bg-gradient-to-r from-blue-300  to-sky-100  '>
-            <div className='flex flex-row items-center  h-10 border-4 border-sky-200 space-x-3 sm:h-14'>
+            <div className='ml-5 mr-4 sm:mr-2 bg-gradient-to-r from-blue-300  to-sky-100  '>
+            <div className='flex flex-row items-center  h-10 border-4 border-sky-200 space-x-3 sm:h-18'>
               <h3 className='font-medium ml-4'>Institute/University Name </h3>
               <h3>:</h3>
               <h3>Bharat Institute of Engineering and Science</h3>

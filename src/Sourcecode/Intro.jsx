@@ -14,9 +14,9 @@ const Intro = () => {
             <Scrolllink to = "skills" smooth offset={-70} duration={1000}><button className='w-32 h-8 mt-5 ml-3 bg-gradient-to-r from-blue-600  to-sky-300 text-white text-base shadow hover:shadow-gray-500 hover:shadow-lg hover:duration-700 hover:w-36 hover:h-9  rounded-2xl sm:hidden ' >SKILLS</button></Scrolllink>
             <Scrolllink to = "projects" smooth offset={-70} duration={1000}><button className='w-32 h-8 mt-5 ml-5 bg-gradient-to-r from-blue-600  to-sky-300 text-white text-base  hover:shadow-gray-500 hover:shadow-lg hover:duration-700 hover:w-36 hover:h-9  rounded-2xl sm:hidden' >PROJECTS</button></Scrolllink>
         </div>
-        <div className='mt-20 ml-14 mr-12 mb-16 sm:mt-5'>
+        <div className='mt-20 ml-14 mr-12 mb-16 sm:mt-2'>
             <div className='w-full flex items-center justify-center ' >
-                <img src = {Profile} alt="None " className=' w-1/2 rounded-3xl  hover:shadow-blue-400 hover:shadow-2xl hover:duration-500 '/>
+                <img src = {Profile} alt="None " className=' w-1/2 rounded-3xl sm:w-3/4 hover:shadow-blue-400 hover:shadow-2xl hover:duration-500 '/>
             </div>
         </div>
     </div>
