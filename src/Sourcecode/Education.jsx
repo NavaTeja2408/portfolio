@@ -19,7 +19,7 @@ const Education = () => {
           </div>
           {toggled ? (
             <div className='ml-5 mr-4 bg-gradient-to-r from-blue-300  to-sky-100 '>
-              <div className='flex flex-row items-center  h-10 border-4 border-sky-200 space-x-3  '>
+              <div className='flex flex-row items-center  h-10 border-4 border-sky-200 space-x-3 sm:h-14 '>
                 <h3 className='font-medium ml-4'>Institute/University Name  </h3>
                 <h3>:</h3>
                 <h3>Sree Dttha Institute of Engineering and Science</h3>
@@ -56,7 +56,7 @@ const Education = () => {
           </div>
           { togglee ? (
             <div className='ml-5 mr-4 bg-gradient-to-r from-blue-300  to-sky-100  '>
-            <div className='flex flex-row items-center  h-10 border-4 border-sky-200 space-x-3'>
+            <div className='flex flex-row items-center  h-10 border-4 border-sky-200 space-x-3 sm:h-14'>
               <h3 className='font-medium ml-4'>Institute/University Name </h3>
               <h3>:</h3>
               <h3>Bharat Institute of Engineering and Science</h3>
