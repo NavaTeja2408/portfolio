@@ -75,7 +75,7 @@ const Skills = () => {
           <p className='text-xs ml-1'>{obj.skillname}</p>
 
         </div>
-          <img src = {obj.src} alt ="None" className='w-16 h-16'/>
+          <img src = {obj.src} alt ="None" className='w-16 h-16 md:hidden'/>
         </div>
       ))}
       </div>
@@ -88,7 +88,7 @@ const Skills = () => {
           <p className='text-xs ml-1'>{obj.skillname}</p>
 
           </div>
-          <img src = {obj.src} alt ="None" className='w-16 h-16'/>
+          <img src = {obj.src} alt ="None" className='w-16 h-16 md:hidden'/>
         </div>
         
         
@@ -103,7 +103,7 @@ const Skills = () => {
           <p className='text-xs ml-1'>{obj.skillname}</p>
 
         </div>
-          <img src = {obj.src} alt ="None" className='w-16 h-16'/>
+          <img src = {obj.src} alt ="None" className='w-16 h-16 md:hidden'/>
         </div>
       ))}
       </div>
