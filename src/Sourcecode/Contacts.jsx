@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { CiLinkedin , CiInstagram , CiFacebook , CiPhone } from "react-icons/ci";
 import { SiGmail } from "react-icons/si";
+import { Link } from 'react-router-dom';
 
 
 const Contacts = () => {
@@ -33,14 +34,15 @@ const Contacts = () => {
                     <CiLinkedin />
                     <p>Linkedin</p>
               </div>
-              <p className='ml-10 hover:text-white hover:cursor-pointer'>Pendiala Navateja</p>
+              <Link to ="https://www.linkedin.com/in/navateja-pendiala-b7b693280" ><p className='ml-10 hover:text-white hover:cursor-pointer'>Pendiala Navateja</p></Link>
             </div>
             <div className='flex flex-row h-10  items-center border-4 border-sky-200'>
               <div className='h-10 w-28  flex items-center justify-center border-4 border-sky-200 space-x-1'>
                 <CiInstagram />
                 <p>Instagram</p>
               </div>
-              <p className='ml-10 hover:text-white hover:cursor-pointer'>@teja_3690</p>
+              
+              <Link to = "https://www.instagram.com/teja_3690?igsh=MXB3aXpwNjdyNG01ZA=="><p className='ml-10 hover:text-white hover:cursor-pointer'>@teja_3690</p></Link>
             </div>
             <div className='flex flex-row h-10 items-center border-4 border-sky-200' >
               <div className='h-10 w-28 flex items-center justify-center border-4 border-sky-200 space-x-1'>

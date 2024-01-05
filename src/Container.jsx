@@ -10,12 +10,18 @@ import Education from './Sourcecode/Education';
 const Container = () => {
   return (
     <div>
+
         <Header />
-        <Intro />
-        <Skills  />
-        <Projects />
-        <Education />
-        <Contacts />
+        <div><Intro /></div>
+        <div><Skills  /></div>
+        <div><Projects /></div>
+        <div><Education /></div>
+        <div><Contacts /></div>
+        
+        
+        
+        
+        
     </div>
   )
 }

@@ -75,9 +75,14 @@ const Skills = () => {
           <p className='text-xs ml-1'>{obj.skillname}</p>
 
         </div>
-          <img src = {obj.src} alt ="None" className='w-16 h-16 md:hidden'/>
+        <div key = {obj.id} className='w-24 h-28  shadow-blue-400 shadow-xl cursor-pointer flex flex-col items-center justify-center bg-sky-100 md:hidden  '>
+          <img src = {obj.src} alt ="None" className='w-14 h-14'/>
+          <p className='text-xs ml-1'>{obj.skillname}</p>
+
+          </div>
         </div>
       ))}
+
       </div>
         <h2 className='mt-3 text-xl font-bold'>Intermediate Level: </h2>
         <div className='mt-3 flex flex-row space-x-10'>
@@ -88,7 +93,12 @@ const Skills = () => {
           <p className='text-xs ml-1'>{obj.skillname}</p>
 
           </div>
-          <img src = {obj.src} alt ="None" className='w-16 h-16 md:hidden'/>
+          <div key = {obj.id} className='w-24 h-28  shadow-blue-400 shadow-xl cursor-pointer flex flex-col items-center justify-center bg-sky-100 md:hidden  '>
+          <img src = {obj.src} alt ="None" className='w-14 h-14'/>
+          <p className='text-xs ml-1'>{obj.skillname}</p>
+
+          </div>
+          
         </div>
         
         
@@ -103,7 +113,11 @@ const Skills = () => {
           <p className='text-xs ml-1'>{obj.skillname}</p>
 
         </div>
-          <img src = {obj.src} alt ="None" className='w-16 h-16 md:hidden'/>
+        <div key = {obj.id} className='w-24 h-28  shadow-blue-400 shadow-xl cursor-pointer flex flex-col items-center justify-center bg-sky-100 md:hidden  '>
+          <img src = {obj.src} alt ="None" className='w-14 h-14'/>
+          <p className='text-xs ml-1'>{obj.skillname}</p>
+
+          </div>
         </div>
       ))}
       </div>
