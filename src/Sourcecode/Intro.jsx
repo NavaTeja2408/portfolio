@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from './Images/Profile.jpg'
+import Profile from './Images/profilenew.jpeg'
 import { Link as Scrolllink } from 'react-scroll'
 
 const Intro = () => {

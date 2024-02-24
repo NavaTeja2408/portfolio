@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './Header'
-import Profile from './Images/Profile.jpg'
+import Profile from './Images/profilenew.jpeg'
 
 const About = () => {
   return (
