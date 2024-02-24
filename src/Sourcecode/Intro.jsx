@@ -18,7 +18,7 @@ const Intro = () => {
         </div>
         <div className='mt-20 ml-14 mr-12 mb-16 sm:mt-2'>
             <div className='md:w-full flex items-center justify-center ' >
-                <img src = {Profile} alt="None " className=' w-1/2 rounded-3xl sm:w-2/3 hover:shadow-blue-400 hover:shadow-2xl hover:duration-500 '/>
+                <img src = {Profile} alt="None " className=' md:w-1/2 rounded-3xl sm:w-1/2 hover:shadow-blue-400 hover:shadow-2xl hover:duration-500 '/>
             </div>
         </div>
     </div>
