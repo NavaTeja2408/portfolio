@@ -1,10 +1,8 @@
 import React from "react";
 import Reactjs from "./Images/react.png";
-import Graphql from "./Images/Graphql.png";
 import Html from "./Images/html.png";
 import Javascript from "./Images/Java Script.png";
 import java from "./Images/java.png";
-import mysql from "./Images/mysql.png";
 import node from "./Images/node.png";
 import python from "./Images/pyhton.jpg";
 import tailwind from "./Images/tailwind.jpg";

@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectCard from "./Components/ProjectCard";
-import python from "./Images/pyhton.jpg";
 import project1 from "./Images/project1.png";
 import project2 from "./Images/project2.png";
 
