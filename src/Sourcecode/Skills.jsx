@@ -34,7 +34,7 @@ const Skills = () => {
       id="skills"
     >
       <div className="h-10 w-full flex items-center justify-center ">
-        <h1 className="font-bold text-3xl">SKILLS KNOWN BY ME</h1>
+        <h1 className="font-bold text-3xl">SKILLS</h1>
       </div>
       <h2 className="mt-8 text-xl font-bold">Expert Level:</h2>
       <div className="mt-3 flex flex-row space-x-5 ">
