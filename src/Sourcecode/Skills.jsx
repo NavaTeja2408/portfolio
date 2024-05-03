@@ -55,7 +55,11 @@ const Skills = () => {
               key={obj.id}
               className="w-24 h-28  shadow-blue-400 shadow-xl cursor-pointer flex flex-col items-center justify-center bg-sky-100 md:hidden  "
             >
-              <img src={obj.src} alt="None" className="w-14 h-14" />
+              <img
+                src={obj.src}
+                alt="None"
+                className="w-14 h-14 mix-blend-multiply"
+              />
               <p className="text-xs ml-1">{obj.skillname}</p>
             </div>
           </div>
@@ -69,14 +73,22 @@ const Skills = () => {
               key={obj.id}
               className="w-40 h-24 shadow-gray-400 shadow-lg hover:shadow-blue-400 hover:shadow-xl hover:duration-700 cursor-pointer flex items-center justify-center bg-sky-100 sm:hidden  "
             >
-              <img src={obj.src} alt="None" className="w-14 h-14" />
+              <img
+                src={obj.src}
+                alt="None"
+                className="w-14 h-14 mix-blend-multiply"
+              />
               <p className="text-xs ml-1">{obj.skillname}</p>
             </div>
             <div
               key={obj.id}
               className="w-24 h-28  shadow-blue-400 shadow-xl cursor-pointer flex flex-col items-center justify-center bg-sky-100 md:hidden  "
             >
-              <img src={obj.src} alt="None" className="w-14 h-14" />
+              <img
+                src={obj.src}
+                alt="None"
+                className="w-14 h-14 mix-blend-multiply"
+              />
               <p className="text-xs ml-1">{obj.skillname}</p>
             </div>
           </div>
@@ -90,14 +102,22 @@ const Skills = () => {
               key={obj.id}
               className="w-40 h-24 shadow-gray-400 shadow-lg  cursor-pointer  flex items-center justify-center  bg-sky-100 hover:shadow-blue-400 hover:shadow-xl hover:duration-700 sm:hidden "
             >
-              <img src={obj.src} alt="None" className="w-14 h-14" />
+              <img
+                src={obj.src}
+                alt="None"
+                className="w-14 h-14 mix-blend-multiply"
+              />
               <p className="text-xs ml-1">{obj.skillname}</p>
             </div>
             <div
               key={obj.id}
               className="w-24 h-28  shadow-blue-400 shadow-xl cursor-pointer flex flex-col items-center justify-center bg-sky-100 md:hidden  "
             >
-              <img src={obj.src} alt="None" className="w-14 h-14" />
+              <img
+                src={obj.src}
+                alt="None"
+                className="w-14 h-14 mix-blend-multiply"
+              />
               <p className="text-xs ml-1">{obj.skillname}</p>
             </div>
           </div>
